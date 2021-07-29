@@ -3,7 +3,7 @@
 Download Gson files from 
 https://github.com/google/gson
 
-Click download and then download ZIP.
+Click Code>Download ZIP.
 Then copy "com" folder from this path within the zip
 
 /gson-master/gson/src/main/java/
