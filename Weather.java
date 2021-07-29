@@ -8,6 +8,8 @@ import java.net.URLConnection;
 import java.util.HashMap;
 import java.util.Map;
 
+// Group 3...
+
 public class Weather
 {
    private static final String WEATHER_API_KEY = "66942c22b4b7ec481ba04d34e010b30e";
