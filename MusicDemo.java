@@ -1,6 +1,8 @@
 import java.util.Scanner;
 import org.jfugue.player.Player;
 
+// jsdkjas
+
 public class MusicDemo
 {
    private static String input;
