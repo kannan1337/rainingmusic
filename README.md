@@ -14,4 +14,5 @@ and paste in same folder as your code. Then copy "com" folder from
 
 as well and paste in same folder as code. It should basically add just one more file to it.
 
-Also download jfuge and copy "org" folder into the same folder as your code.
+Also download jfuge and copy "org" folder into the same folder as the code.
+Also download CSV file and place in same folder as the code.
