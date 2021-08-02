@@ -20,11 +20,11 @@ public class Weather
    // The free account holds some limitations.
    private static final String WEATHER_API_KEY = "66942c22b4b7ec481ba04d34e010b30e";
    
-   // Holds city name, and the URL that gives the weather report as json string
-   private String city, weatherUrlString, report;  // String to hold report
+   // Holds city, 2 letter country, and the URL that gives the weather report as json string
+   private String city, countryCode, weatherUrlString, report;  // String to hold report
    
-   // Hold temperature value as an int
-   private int temperature;
+   // Hold temperature value as an int, timezone
+   private int temperature, timeZone;
    
    /**
       Converts json string to a map.
@@ -93,13 +93,23 @@ public class Weather
          
          // Convert report string to a Map using google's gson code
          Map<String, Object> reportMap = jsonToMap(report.toString());
-      
+         
+         // Retrieve timezone and save as from reportmap, to float, to int
+         timeZone = (int) Float.parseFloat(reportMap.get("timezone").toString());
+         
          // Convert the "main" field of the reportMap to a new map for main
          Map<String, Object> mainMap = jsonToMap(reportMap.get("main").toString());
          
          // Retrieve the temperature from mainmap, convert to float, then to int
          // and save in temperature field
          temperature = (int) Float.parseFloat(mainMap.get("temp").toString());
+         
+         // Convert the "sys" field of the reportMap to a new map for main
+         Map<String, Object> sysMap = jsonToMap(reportMap.get("sys").toString());
+         
+         // Retrieve country code from sys map
+         countryCode = sysMap.get("country").toString();
+                 
       } catch (IOException exception)
       {
          System.out.println(exception.getMessage());
@@ -122,5 +132,23 @@ public class Weather
    public String getCity()
    {
       return city;
+   }
+   
+   /**
+      Getter method for timezone
+      @return Time zone for the current city
+   */
+   public int getTimeZone()
+   {
+      return timeZone;
+   }
+   
+   /**
+      Getter method for 2 letter country code
+      @return 2 letter country code of current city
+   */
+   public String getCountryCode()
+   {
+      return countryCode;
    }
 }
