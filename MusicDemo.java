@@ -14,6 +14,9 @@ public class MusicDemo
    // To hold weather report
    private static Weather weather;
    
+   // To hold object that contains countries-continents list
+   //private static CountryContinentMap countries;
+   
    /**
       Main method for the demo
    */
@@ -25,6 +28,9 @@ public class MusicDemo
       // To hold use input as scanner object
       Scanner scanner = new Scanner(System.in);
       
+      // Call constructor to create map with countries & continents
+      //countries = new CountryContinentMap();
+      
       // Ask user for city to pull weather for
       System.out.print("Enter city: ");
       
@@ -35,8 +41,12 @@ public class MusicDemo
       weather = new Weather(input);
       
       // Print the temperature using the getter method from the weather object
-      System.out.println(weather.getCity() + " temperature: " + weather.getTemp());
-      
+      System.out.println(weather.getCity() + ", " + weather.getCountryCode()
+         + " " + CountryContinentMap.getCountry(weather.getCountryCode())
+         + ", " + CountryContinentMap.getContinentCode(weather.getCountryCode())
+         + " " + CountryContinentMap.getContinent(weather.getCountryCode())
+         + " temperature: " + weather.getTemp());
+
       // Play 4 chords using the temperature as the tempo
       player.play("T" + String.valueOf(weather.getTemp()) + " C D E F");
       
