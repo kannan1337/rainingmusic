@@ -50,6 +50,10 @@ public class MusicDemo
       // Play 4 chords using the temperature as the tempo
       player.play("T" + String.valueOf(weather.getTemp()) + " C D E F");
       
+      // Play cold music depending on continent
+      ColdMusic coldMusic = new ColdMusic();
+      coldMusic.play(CountryContinentMap.getContinentCode(weather.getCountryCode()));
+      
       // Ask user whether to change the city
       System.out.print("\nChange city? (Y/N): ");
       
