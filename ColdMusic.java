@@ -7,11 +7,32 @@ import org.jfugue.pattern.Pattern;
 
 public class ColdMusic
 {
- public static void main(String[] args)
- {
-  Player player = new Player();
-  Pattern p1 = new Pattern ("V0 I[PAN_FLUTE] F G A Bb C D E F6W");
-  Pattern p2 = new Pattern ("V1 I[OBOE] F G A Bb C D E F6W"); 
-   player.play(p1, p2);
+  private String instrument1, instrument2, currentInstrument;
+  private String coldSong1;
+  private String coldSong2;
+  
+  public ColdMusic()
+  {
+      instrument1 = "PAN_FLUTE";
+      instrument2 = "OBOE";
+      coldSong1 = "] F G A Bb C D E F6W";
+      coldSong2 = "] F G A Bb C D E F6W";
+  }
+  
+  public void play(String continent)
+  {
+      switch (continent)
+      {
+      case "NA":  currentInstrument = instrument1;
+                  break;
+      case "AF":  currentInstrument = instrument2;
+                  break;
+      default:    currentInstrument = instrument1;
+      }
+      
+      Player player = new Player();
+      Pattern p1 = new Pattern ("V0 I[" + currentInstrument + coldSong1);
+      Pattern p2 = new Pattern ("V1 I[" + currentInstrument + coldSong2); 
+      player.play(p1, p2);
   }
 }
