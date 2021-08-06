@@ -1,6 +1,7 @@
 /**
    This program demos the use of weather class and uses its temperature
    return method to play four chords with that tempo
+   Now also plays ColdMusic based on continent of location chosen.
 */
 
 import java.util.Scanner;
