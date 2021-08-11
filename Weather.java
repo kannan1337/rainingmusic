@@ -13,6 +13,7 @@ import java.net.URL;
 import java.net.URLConnection;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.List;
 
 public class Weather
 {
@@ -21,7 +22,8 @@ public class Weather
    private static final String WEATHER_API_KEY = "66942c22b4b7ec481ba04d34e010b30e";
    
    // Holds city, 2 letter country, and the URL that gives the weather report as json string
-   private String city, countryCode, weatherUrlString, report;  // String to hold report
+   private String city, countryCode, weatherUrlString, weatherType,
+      report;  // String to hold report
    
    // Hold temperature value as an int, timezone
    private int temperature, timeZone;
@@ -89,10 +91,17 @@ public class Weather
          report = scanner.nextLine();
       
          // Print out the report for testing
-         System.out.println("Weather report is:\n" + report + "\n");
+         // System.out.println("Weather report is:\n" + report + "\n");
          
          // Convert report string to a Map using google's gson code
          Map<String, Object> reportMap = jsonToMap(report.toString());
+         
+         // Convert the "weather" field of the reportMap to a new map for weather
+         // Gson gson = new Gson();
+         // WeatherDescriptiveData[] weatherArray = gson.fromJson(reportMap.get("weather").toString(), WeatherDescriptiveData[].class);
+         
+         // Retrieve type of weather
+         // weatherType = weatherArray[0].getMain();
          
          // Retrieve timezone and save as from reportmap, to float, to int
          timeZone = (int) Float.parseFloat(reportMap.get("timezone").toString());
@@ -151,4 +160,17 @@ public class Weather
    {
       return countryCode;
    }
+   
+   /*
+      Currently broken
+      Getter method for weather type.
+      E.g.: rain, clear, snow.
+      @return Type of current weather at current city
+   */
+   /*
+   public String getWeatherType()
+   {
+      return weatherType;
+   }
+   */
 }

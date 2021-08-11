@@ -1,7 +1,6 @@
 /**
    This program demos the use of weather class and uses its temperature
    return method to play four chords with that tempo
-   Now also plays ColdMusic based on continent of location chosen.
 */
 
 import java.util.Scanner;
@@ -46,15 +45,15 @@ public class MusicDemo
          + " " + CountryContinentMap.getCountry(weather.getCountryCode())
          + ", " + CountryContinentMap.getContinentCode(weather.getCountryCode())
          + " " + CountryContinentMap.getContinent(weather.getCountryCode())
-         + " temperature: " + weather.getTemp());
-
-      // Play 4 chords using the temperature as the tempo
-      player.play("T" + String.valueOf(weather.getTemp()) + " C D E F");
+         + ", type: " + weather.getWeatherType()
+         + ", temperature: " + weather.getTemp());
       
       // Play cold music depending on continent
       ColdMusic coldMusic = new ColdMusic();
-      coldMusic.play(CountryContinentMap.getContinentCode(weather.getCountryCode()));
+      coldMusic.play(weather);
       
+      // Asking user for another city is current disabled till it is completed.
+      /*
       // Ask user whether to change the city
       System.out.print("\nChange city? (Y/N): ");
       
@@ -79,7 +78,9 @@ public class MusicDemo
          
          // Ask user whether to change the city and store input
          System.out.print("\nChange city? (Y/N): ");
-         input = scanner.nextLine();  
-      }      
+         input = scanner.nextLine();
+      
+      }
+      */      
    }
 }

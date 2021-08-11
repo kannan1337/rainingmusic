@@ -1,38 +1,96 @@
-/***********************************
-Creating a simple tune that will play when it's 
-cold
-****************************************/ 
+/**
+   ColdMusic class that inherits the Music class.
+   It holds the tune to be played when the weather
+   is cold, method to play the intro music from its super class,
+   and play its own 2nd line of music with tempo based on weather.
+*/ 
+
+// Required for jfuge player
 import org.jfugue.player.Player;
+
+// Required for patterns to be played in jfuge player
 import org.jfugue.pattern.Pattern;
 
-public class ColdMusic
+public class ColdMusic extends Music
 {
-  private String instrument1, instrument2, currentInstrument;
-  private String coldSong1;
-  private String coldSong2;
+   // Set of notes that are exclusive to this child class
+   // to be played when weather is cold
+   private String tune;
+   
+   // Pattern that stores the notes and related settings for this child class.
+   private String pattern;
   
-  public ColdMusic()
-  {
-      instrument1 = "PAN_FLUTE";
-      instrument2 = "OBOE";
-      coldSong1 = "] C D E F G A B C6W";
-      coldSong2 = "] C D E F G A B C6W";
-  }
-  
-  public void play(String continent)
-  {
-      switch (continent)
-      {
-      case "NA":  currentInstrument = instrument1;
-                  break;
-      case "AF":  currentInstrument = instrument2;
-                  break;
-      default:    currentInstrument = instrument1;
-      }
+   // Instrument to play this custom tune
+   private String instrument;
+   
+   /**
+      Constructor to call super class constructor and
+      set the music notes specific to the cold class.
+   */
+   public ColdMusic()
+   {
+      // Call super class constructor to set intro music fields
+      super();
       
+      // Set the notes to be played secondly
+      tune = "F G A Bb C D E F6W";
+      
+      // Set the patter to the tune defined in this child class
+      pattern = new Pattern (tune);
+   }
+  
+   /**
+      Plays the second line of music defined in this child class
+      with instrument chosen based on the continent of the location
+      for which the weather report was pulled, and with
+      tempo chosen based on temperature.
+      This uses method overloading.
+      It can either be passed a Weather object or be called with no parameters.
+      @param weather Weather object of the location for which weather was pulled.
+   */
+   
+   public void play(Weather weather)
+   {
+      // Play intro music by calling the play method in the super class
+      super.play(weather);
+      
+      // Choose intrument to play the 2nd line of music in this child class
+      instrument = chooseInstrument(weather);
+      
+      // Display what this is playing and how
+      System.out.println("\nPlaying ColdMusic tune with instrument: "
+         + instrument + "\n chosen based on continent: "
+         + CountryContinentMap.getContinent(weather.getCountryCode())
+         + "\n and tempo: " + getTempo() + " from temperature.");
+      
+      // Create a new player
       Player player = new Player();
-      Pattern p1 = new Pattern ("V0 I[" + currentInstrument + coldSong1);
-      Pattern p2 = new Pattern ("V1 I[" + currentInstrument + coldSong2); 
-      player.play(p1, p2);
-  }
+      
+      // Set the tempo of the pattern to tempo used in intro music (from temperature)
+      pattern.setTempo(getTempo());
+      
+      // Set the intrument of the pattern to the instrument chosen earlier
+      pattern.setInstrument(instrument);
+      
+      // Play the pattern
+      player.play(pattern);
+   }
+   
+   /**
+      Plays the pattern with current settings when no parameter is passed.
+      This uses method overloading.
+      It can either be passed a Weather object or be called with no parameters.
+   */
+   
+   public void play()
+   {
+      // Display what this is playing.
+      System.out.println("\nPlaying ColdMusic tune with current settings..");
+      
+      // Create a new player
+      Player player = new Player();
+      
+      // Play the pattern with current settings.
+      player.play(pattern);      
+   }
 }
