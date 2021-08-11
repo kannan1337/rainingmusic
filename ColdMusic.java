@@ -18,7 +18,7 @@ public class ColdMusic extends Music
    private String tune;
    
    // Pattern that stores the notes and related settings for this child class.
-   private String pattern;
+   private Pattern pattern;
   
    // Instrument to play this custom tune
    private String instrument;
@@ -35,7 +35,7 @@ public class ColdMusic extends Music
       // Set the notes to be played secondly
       tune = "F G A Bb C D E F6W";
       
-      // Set the patter to the tune defined in this child class
+      // Set the pattern to the tune defined in this child class
       pattern = new Pattern (tune);
    }
   

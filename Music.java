@@ -39,7 +39,7 @@ public class Music
       tempo = 100;
       
       // Initialize the intro pattern
-      introPattern = new Pattern ();
+      introPattern = new Pattern (introTune);
    }
    
    /**
