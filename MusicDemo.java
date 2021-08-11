@@ -49,7 +49,7 @@ public class MusicDemo
          // + ", type: " + weather.getWeatherType();
       
       // Play cold music depending on continent
-      ColdMusic coldMusic = new ColdMusic();
+      Music coldMusic = new ColdMusic();
       coldMusic.play(weather);
       
       // Asking user for another city is current disabled till it is completed.
