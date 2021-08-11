@@ -1,17 +1,38 @@
 /***********************************
 Creating a simple tune that will play when it's 
-cold. This has been update to play the c major scale
+cold
 ****************************************/ 
-import org.jfugue.player.Player; // importing the player method
-import org.jfugue.pattern.Pattern; // importing the pattern method
+import org.jfugue.player.Player;
+import org.jfugue.pattern.Pattern;
 
 public class ColdMusic
 {
- public static void main(String[] args)
- {
-  Player player = new Player(); // creating a new player
-  Pattern p1 = new Pattern ("V0 I[PAN_FLUTE] C D E F G A B C6W");
-  Pattern p2 = new Pattern ("V1 I[OBOE] C D E F G A B C6W"); 
-   player.play(p1, p2); // playing the pattern
+  private String instrument1, instrument2, currentInstrument;
+  private String coldSong1;
+  private String coldSong2;
+  
+  public ColdMusic()
+  {
+      instrument1 = "PAN_FLUTE";
+      instrument2 = "OBOE";
+      coldSong1 = "] C D E F G A B C6W";
+      coldSong2 = "] C D E F G A B C6W";
+  }
+  
+  public void play(String continent)
+  {
+      switch (continent)
+      {
+      case "NA":  currentInstrument = instrument1;
+                  break;
+      case "AF":  currentInstrument = instrument2;
+                  break;
+      default:    currentInstrument = instrument1;
+      }
+      
+      Player player = new Player();
+      Pattern p1 = new Pattern ("V0 I[" + currentInstrument + coldSong1);
+      Pattern p2 = new Pattern ("V1 I[" + currentInstrument + coldSong2); 
+      player.play(p1, p2);
   }
 }
