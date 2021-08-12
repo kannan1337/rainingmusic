@@ -50,7 +50,6 @@ public class Weather
    public Weather(String pCity)
    {
       updateCity(pCity);
-      update();
    }
    
    /**
@@ -91,17 +90,10 @@ public class Weather
          report = scanner.nextLine();
       
          // Print out the report for testing
-         // System.out.println("Weather report is:\n" + report + "\n");
+         System.out.println("Weather report is:\n" + report + "\n");
          
          // Convert report string to a Map using google's gson code
          Map<String, Object> reportMap = jsonToMap(report.toString());
-         
-         // Convert the "weather" field of the reportMap to a new map for weather
-         // Gson gson = new Gson();
-         // WeatherDescriptiveData[] weatherArray = gson.fromJson(reportMap.get("weather").toString(), WeatherDescriptiveData[].class);
-         
-         // Retrieve type of weather
-         // weatherType = weatherArray[0].getMain();
          
          // Retrieve timezone and save as from reportmap, to float, to int
          timeZone = (int) Float.parseFloat(reportMap.get("timezone").toString());
