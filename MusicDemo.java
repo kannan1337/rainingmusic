@@ -40,8 +40,8 @@ public class MusicDemo
          + " " + CountryContinentMap.getCountry(weather.getCountryCode())
          + ", " + CountryContinentMap.getContinentCode(weather.getCountryCode())
          + " " + CountryContinentMap.getContinent(weather.getCountryCode())
-         + ", temperature: " + weather.getTemp());
-         // + ", type: " + weather.getWeatherType();
+         + ", temperature: " + weather.getTemp()
+          + ", type: " + weather.getWeatherType());
       
       // Play cold music depending on continent
       music = new ColdMusic();
