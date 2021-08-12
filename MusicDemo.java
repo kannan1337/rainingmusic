@@ -1,6 +1,11 @@
 /**
-   This program demos the use of weather class and uses its temperature
-   return method to play four chords with that tempo
+   This program asks the user to enter a city.
+   It then pulls the weather report for it by using Weather class.
+   Finds the continent where that city belongs using CountryContinentMap class.
+   Initializes and plays music using a music class that could be Cold/Hot/RainMusic
+   class depending on the type of weather.
+   The music plays at a tempo defined by the temperature,
+   using an instrument defined by the continent.
 */
 
 // To get user input
@@ -35,16 +40,36 @@ public class MusicDemo
       // Create a Weather object using constructor that passes city name into it
       weather = new Weather(input);
       
-      // Print the temperature using the getter method from the weather object
-      System.out.println(weather.getCity() + ", " + weather.getCountryCode()
-         + " " + CountryContinentMap.getCountry(weather.getCountryCode())
-         + ", " + CountryContinentMap.getContinentCode(weather.getCountryCode())
-         + " " + CountryContinentMap.getContinent(weather.getCountryCode())
-         + ", temperature: " + weather.getTemp()
-          + ", type: " + weather.getWeatherType());
+      // Print the weather using getter methods in weather object
+      System.out.println("City: " + weather.getCity() + "\nCountry: "
+         + CountryContinentMap.getCountry(weather.getCountryCode()) + " ("
+         + weather.getCountryCode() + ") \nContinent: "
+         + CountryContinentMap.getContinent(weather.getCountryCode())
+         + " (" + CountryContinentMap.getContinentCode(weather.getCountryCode())
+         + ") \nWeather type: " + weather.getWeatherType()
+         + "\nTemperature: " + weather.getTemp() + " deg F");
       
-      // Play cold music depending on continent
-      music = new ColdMusic();
+      // Initialize music object based on weather type
+      // POLYMORPHISM
+      switch (weather.getWeatherType())
+      {
+         // Rain Music
+         case "Thunderstorm":
+         case "Drizzle":
+         case "Rain": music = new RainMusic();
+            break;
+         
+         // Hot Music
+         case "Clear":
+         case "Clouds": music = new HotMusic();
+            break;
+                     
+         // Cold Music
+         case "Snow":
+         default: music = new ColdMusic();
+      }
+      
+      // Call the play method in the Rain/Hot/ColdMusic class
       music.play(weather);
             
    }

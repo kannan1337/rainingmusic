@@ -143,8 +143,10 @@ public class Music
       tempo = weather.getTemp();
       
       // Display what this is playing and how
-      System.out.println("\nPlaying intro tune with default intro music instrument: "
-         + introInstrument + "\n and tempo: " + tempo + " from temperature.");
+      System.out.println("\nPlaying (super class).. \n Tune: Music (Intro) \n"
+         + " Instrument: " + introInstrument + " (default for intro music) \n"
+         + " Tempo: " + getTempo() + " (set from temperature: "
+         + weather.getTemp() + " deg F)");
       
       // Create a new player
       Player player = new Player();

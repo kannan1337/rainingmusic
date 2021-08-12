@@ -43,8 +43,8 @@ public class Weather
    
    /**
       Converts json string to a map.
-      This piece of code was adapted from the internet.
-      Source will be added in next update.
+      This piece of code was adapted from the internet
+      written by Adam Gaweda
    */
    public static Map<String, Object> jsonToMap(String str)
    {
@@ -77,7 +77,9 @@ public class Weather
       // Create new URL to query the weather with updated city
       weatherUrlString = "http://api.openweathermap.org/data/2.5/weather?q="
          + city + "&appid=" + WEATHER_API_KEY + "&units=imperial";
-      System.out.println("Weather query URL: " + weatherUrlString + "\n");
+      
+      // Print the URL used to query the weather
+      //System.out.println("Weather query URL: " + weatherUrlString + "\n");
       
       // Call update method to get new weather report
       update();
@@ -108,7 +110,7 @@ public class Weather
       }
       
       // Print out the report for testing
-      System.out.println("Weather report is:\n" + report + "\n");
+      // System.out.println("Weather report is:\n" + report + "\n");
       
       // Convert report string to a Map using google's gson code
       Map<String, Object> reportMap = jsonToMap(report.toString());
@@ -151,7 +153,16 @@ public class Weather
             ID 3xx: "Drizzle"
             ID 5xx: "Rain"
             ID 6xx: "Snow"
-            ID 7xx: "Atmosphere"
+            ID 701: "Mist"
+            ID 711: "Smoke"
+            ID 721: "Haze"
+            ID 731: "Dust"
+            ID 741: "Fog"
+            ID 751: "Sand"
+            ID 761: "Dust"
+            ID 762: "Ash"
+            ID 771: "Squall"
+            ID 781: "Tornado"
             ID 800: "Clear"
             ID 80x: "Clouds"
          */
@@ -208,7 +219,16 @@ public class Weather
       ID 3xx: "Drizzle"
       ID 5xx: "Rain"
       ID 6xx: "Snow"
-      ID 7xx: "Atmosphere"
+      ID 701: "Mist"
+      ID 711: "Smoke"
+      ID 721: "Haze"
+      ID 731: "Dust"
+      ID 741: "Fog"
+      ID 751: "Sand"
+      ID 761: "Dust"
+      ID 762: "Ash"
+      ID 771: "Squall"
+      ID 781: "Tornado"
       ID 800: "Clear"
       ID 80x: "Clouds"
       @return Type of current weather type at current city

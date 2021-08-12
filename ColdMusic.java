@@ -1,8 +1,8 @@
 /**
    ColdMusic class that inherits the Music class.
-   It holds the tune to be played when the weather
-   is cold, method to play the intro music from its super class,
-   and play its own 2nd line of music with tempo based on weather.
+   It holds the tune to be played when the weatheris Snow or
+   harsh, method to play the intro music from its super
+   class, and play its own 2nd line of music with tempo based on weather.
 */ 
 
 // Required for jfuge player
@@ -14,7 +14,7 @@ import org.jfugue.pattern.Pattern;
 public class ColdMusic extends Music
 {
    // Set of notes that are exclusive to this child class
-   // to be played when weather is cold
+   // to be played when weather is snow/harsh
    private String tune;
    
    // Pattern that stores the notes and related settings for this child class.
@@ -58,10 +58,12 @@ public class ColdMusic extends Music
       instrument = chooseInstrument(weather);
       
       // Display what this is playing and how
-      System.out.println("\nPlaying ColdMusic tune with instrument: "
-         + instrument + "\n chosen based on continent: "
+      System.out.println("\nPlaying (child class).. \n Tune: Cold Music "
+         + "(chosen from Weather: Snow/harsh) \n Instrument: "
+         + instrument + " (chosen from continent: "
          + CountryContinentMap.getContinent(weather.getCountryCode())
-         + "\n and tempo: " + getTempo() + " from temperature.");
+         + ")\n Tempo: " + getTempo() + " (set from temperature: "
+         + weather.getTemp() + " deg F)");
       
       // Create a new player
       Player player = new Player();
@@ -85,7 +87,7 @@ public class ColdMusic extends Music
    public void play()
    {
       // Display what this is playing.
-      System.out.println("\nPlaying ColdMusic tune with current settings..");
+      System.out.println("\nPlaying Cold Music tune with current settings..");
       
       // Create a new player
       Player player = new Player();
