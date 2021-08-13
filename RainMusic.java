@@ -33,7 +33,7 @@ public class RainMusic extends Music
       super();
       
       // Set the notes to be played secondly
-      tune = "F G A Bb C D E F6W";
+      tune = "Eb F G Ab Bb C D Eb";
       
       // Set the pattern to the tune defined in this child class
       pattern = new Pattern (tune);

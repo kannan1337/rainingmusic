@@ -33,7 +33,7 @@ public class HotMusic extends Music
       super();
       
       // Set the notes to be played secondly
-      tune = "F G A Bb C D E F6W";
+      tune = "E F# G# A B C# D# EW";
       
       // Set the pattern to the tune defined in this child class
       pattern = new Pattern (tune);
