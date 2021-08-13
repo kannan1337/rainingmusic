@@ -58,15 +58,15 @@ public class Music
       switch (continent)
       {
          // Africa
-         case "AF":  chosenInstrument = "Oboe";
+         case "AF":  chosenInstrument = "Marimba";
                      break;
                      
          // Antartica
-         case "AN":  chosenInstrument = introInstrument;
+         case "AN":  chosenInstrument = "Crystal";
                      break;
          
          // Asia
-         case "AS":  chosenInstrument = "Marimba";
+         case "AS":  chosenInstrument = "Shamisen";
                      break;
          
          // Europe
@@ -74,11 +74,11 @@ public class Music
                      break;
          
          // North America
-         case "NA":  chosenInstrument = "Rain";
+         case "NA":  chosenInstrument = "Acoustic_Bass";
                      break;
          
          // Oceania
-         case "OC":  chosenInstrument = "Crystal";
+         case "OC":  chosenInstrument = "Rain";
                      break;
                      
          // South America
