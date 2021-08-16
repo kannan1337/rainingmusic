@@ -42,14 +42,13 @@ public class MusicDemo
       
       // Check for places starting with this name and store them
       ArrayList<Location> citySuggestions = LocationHelp.autocomplete(input);
-      //Location[] citySuggestions = LocationHelp.autocomplete(input);
       
       // Show location matches
       for(int i = 0; i < citySuggestions.size(); i++)
          System.out.print("\n[" + (i+1) + "] " + citySuggestions.get(i).toString());
       
       // Ask user to pick from matched locations
-      System.out.print("\n\nChoose one from the above locations [1-5]: ");
+      System.out.print("\n\nChoose one from the above locations. Enter number: ");
       
       // Chosen option is stored
       input = scanner.nextLine();
