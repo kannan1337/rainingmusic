@@ -3,6 +3,9 @@
    country-and-continent-codes-list.csv in same folder.
    Provides methods to return continent code, continent name,
    and country name when 2 letter country code is available.
+   Also provides method that returns max 10 Location objects that
+   are suggested locations based on what first few letters of city
+   passed into it.
 */
 
 // To read file contents
@@ -173,7 +176,7 @@ public final class LocationHelp
       the first few letters of the city passed into
       this method.
       @param input First fetters of city entered by user
-      @return Array of 5 top matches of cities
+      @return ArrayList of upto 10 top matches of cities
    */
    
    public static ArrayList<Location> autocomplete(String input)
