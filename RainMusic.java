@@ -61,7 +61,7 @@ public class RainMusic extends Music
       System.out.println("\nPlaying (child class).. \n Tune: Rain Music "
          + "(chosen from Weather: Rain/Drizzle/Thunderstrom) \n Instrument: "
          + instrument + " (chosen from continent: "
-         + CountryContinentMap.getContinent(weather.getCountryCode())
+         + LocationHelp.getContinent(weather.getCountryCode())
          + ")\n Tempo: " + getTempo() + " (set from temperature: "
          + weather.getTemp() + " deg F)");
       

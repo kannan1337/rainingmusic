@@ -79,7 +79,7 @@ public class Weather
          + city + "&appid=" + WEATHER_API_KEY + "&units=imperial";
       
       // Print the URL used to query the weather
-      System.out.println("Weather query URL: " + weatherUrlString + "\n");
+      //System.out.println("Weather query URL: " + weatherUrlString + "\n");
       
       // Call update method to get new weather report
       update();

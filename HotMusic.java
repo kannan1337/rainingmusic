@@ -61,7 +61,7 @@ public class HotMusic extends Music
       System.out.println("\nPlaying (child class).. \n Tune: Hot Music "
          + "(chosen from Weather: Clear/Clouds) \n Instrument: "
          + instrument + " (chosen from continent: "
-         + CountryContinentMap.getContinent(weather.getCountryCode())
+         + LocationHelp.getContinent(weather.getCountryCode())
          + ")\n Tempo: " + getTempo() + " (set from temperature: "
          + weather.getTemp() + " deg F)");
       

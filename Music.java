@@ -114,8 +114,8 @@ public class Music
       String countryCode = weather.getCountryCode();
       
       // Store the continent code corresponding to the country
-      // This uses the CountryContinentMap class to pull this information
-      String continentcode = CountryContinentMap.getContinentCode(countryCode);
+      // This uses the LocationHelp class to pull this information
+      String continentcode = LocationHelp.getContinentCode(countryCode);
       
       /*
          Using method overloading call the version of the chooseInstrument()

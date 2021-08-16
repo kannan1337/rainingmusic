@@ -61,7 +61,7 @@ public class ColdMusic extends Music
       System.out.println("\nPlaying (child class).. \n Tune: Cold Music "
          + "(chosen from Weather: Snow/harsh) \n Instrument: "
          + instrument + " (chosen from continent: "
-         + CountryContinentMap.getContinent(weather.getCountryCode())
+         + LocationHelp.getContinent(weather.getCountryCode())
          + ")\n Tempo: " + getTempo() + " (set from temperature: "
          + weather.getTemp() + " deg F)");
       
