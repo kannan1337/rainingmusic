@@ -179,7 +179,7 @@ public final class LocationHelp
    public static ArrayList<Location> autocomplete(String input)
    {
       // Create new URL string to query matched locations with user input
-      String locationUrlString = "https://autocomplete.search.hereapi.com/v1/autocomplete?types=city&limit=5&apiKey="
+      String locationUrlString = "https://autocomplete.search.hereapi.com/v1/autocomplete?types=city&limit=10&apiKey="
          + LOCATION_API_KEY + "&q=" + input;
             
       try
@@ -204,9 +204,8 @@ public final class LocationHelp
          System.out.println(exception.getMessage());
       }
       
-      // Declare array to store 5 locations in Location objects array
+      // Declare ArrayList to store location suggestions of type Location object
       ArrayList<Location> locationSuggestions = new ArrayList<Location>();
-      //Location locationSuggestions[] = new Location[6]; 
       
       try
       {
