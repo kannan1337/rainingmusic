@@ -79,7 +79,7 @@ public class Weather
          + city + "&appid=" + WEATHER_API_KEY + "&units=imperial";
       
       // Print the URL used to query the weather
-      //System.out.println("Weather query URL: " + weatherUrlString + "\n");
+      System.out.println("Weather query URL: " + weatherUrlString + "\n");
       
       // Call update method to get new weather report
       update();
@@ -117,6 +117,9 @@ public class Weather
       
       // Retrieve timezone and save as from reportmap, to float, to int
       timeZone = (int) Float.parseFloat(reportMap.get("timezone").toString());
+      
+      // Retrieve city name and store it
+      city = reportMap.get("name").toString();
       
       // Convert the "main" field of the reportMap to a new map for main
       Map<String, Object> mainMap = jsonToMap(reportMap.get("main").toString());

@@ -1,263 +1,263 @@
-﻿Two_Letter_Country_Code;Continent_Code;Continent_Name;Three_Letter_Country_Code;Country_Name;Country_Number
-AF;AS;Asia;AFG;Afghanistan, Islamic Republic of;4
-AL;EU;Europe;ALB;Albania, Republic of;8
-AQ;AN;Antarctica;ATA;Antarctica (the territory South of 60 deg S);10
-DZ;AF;Africa;DZA;Algeria, People's Democratic Republic of;12
-AS;OC;Oceania;ASM;American Samoa;16
-AD;EU;Europe;AND;Andorra, Principality of;20
-AO;AF;Africa;AGO;Angola, Republic of;24
-AG;NA;North America;ATG;Antigua and Barbuda;28
-AZ;EU;Europe;AZE;Azerbaijan, Republic of;31
-AZ;AS;Asia;AZE;Azerbaijan, Republic of;31
-AR;SA;South America;ARG;Argentina, Argentine Republic;32
-AU;OC;Oceania;AUS;Australia, Commonwealth of;36
-AT;EU;Europe;AUT;Austria, Republic of;40
-BS;NA;North America;BHS;Bahamas, Commonwealth of the;44
-BH;AS;Asia;BHR;Bahrain, Kingdom of;48
-BD;AS;Asia;BGD;Bangladesh, People's Republic of;50
-AM;EU;Europe;ARM;Armenia, Republic of;51
-AM;AS;Asia;ARM;Armenia, Republic of;51
-BB;NA;North America;BRB;Barbados;52
-BE;EU;Europe;BEL;Belgium, Kingdom of;56
-BM;NA;North America;BMU;Bermuda;60
-BT;AS;Asia;BTN;Bhutan, Kingdom of;64
-BO;SA;South America;BOL;Bolivia, Republic of;68
-BA;EU;Europe;BIH;Bosnia and Herzegovina;70
-BW;AF;Africa;BWA;Botswana, Republic of;72
-BV;AN;Antarctica;BVT;Bouvet Island (Bouvetoya);74
-BR;SA;South America;BRA;Brazil, Federative Republic of;76
-BZ;NA;North America;BLZ;Belize;84
-IO;AS;Asia;IOT;British Indian Ocean Territory (Chagos Archipelago);86
-SB;OC;Oceania;SLB;Solomon Islands;90
-VG;NA;North America;VGB;British Virgin Islands;92
-BN;AS;Asia;BRN;Brunei Darussalam;96
-BG;EU;Europe;BGR;Bulgaria, Republic of;100
-MM;AS;Asia;MMR;Myanmar, Union of;104
-BI;AF;Africa;BDI;Burundi, Republic of;108
-BY;EU;Europe;BLR;Belarus, Republic of;112
-KH;AS;Asia;KHM;Cambodia, Kingdom of;116
-CM;AF;Africa;CMR;Cameroon, Republic of;120
-CA;NA;North America;CAN;Canada;124
-CV;AF;Africa;CPV;Cape Verde, Republic of;132
-KY;NA;North America;CYM;Cayman Islands;136
-CF;AF;Africa;CAF;Central African Republic;140
-LK;AS;Asia;LKA;Sri Lanka, Democratic Socialist Republic of;144
-TD;AF;Africa;TCD;Chad, Republic of;148
-CL;SA;South America;CHL;Chile, Republic of;152
-CN;AS;Asia;CHN;China, People's Republic of;156
-TW;AS;Asia;TWN;Taiwan;158
-CX;AS;Asia;CXR;Christmas Island;162
-CC;AS;Asia;CCK;Cocos (Keeling) Islands;166
-CO;SA;South America;COL;Colombia, Republic of;170
-KM;AF;Africa;COM;Comoros, Union of the;174
-YT;AF;Africa;MYT;Mayotte;175
-CG;AF;Africa;COG;Congo, Republic of the;178
-CD;AF;Africa;COD;Congo, Democratic Republic of the;180
-CK;OC;Oceania;COK;Cook Islands;184
-CR;NA;North America;CRI;Costa Rica, Republic of;188
-HR;EU;Europe;HRV;Croatia, Republic of;191
-CU;NA;North America;CUB;Cuba, Republic of;192
-CY;EU;Europe;CYP;Cyprus, Republic of;196
-CY;AS;Asia;CYP;Cyprus, Republic of;196
-CZ;EU;Europe;CZE;Czech Republic;203
-BJ;AF;Africa;BEN;Benin, Republic of;204
-DK;EU;Europe;DNK;Denmark, Kingdom of;208
-DM;NA;North America;DMA;Dominica, Commonwealth of;212
-DO;NA;North America;DOM;Dominican Republic;214
-EC;SA;South America;ECU;Ecuador, Republic of;218
-SV;NA;North America;SLV;El Salvador, Republic of;222
-GQ;AF;Africa;GNQ;Equatorial Guinea, Republic of;226
-ET;AF;Africa;ETH;Ethiopia, Federal Democratic Republic of;231
-ER;AF;Africa;ERI;Eritrea, State of;232
-EE;EU;Europe;EST;Estonia, Republic of;233
-FO;EU;Europe;FRO;Faroe Islands;234
-FK;SA;South America;FLK;Falkland Islands (Malvinas);238
-GS;AN;Antarctica;SGS;South Georgia and the South Sandwich Islands;239
-FJ;OC;Oceania;FJI;Fiji, Republic of the Fiji Islands;242
-FI;EU;Europe;FIN;Finland, Republic of;246
-AX;EU;Europe;ALA;Åland Islands;248
-FR;EU;Europe;FRA;France, French Republic;250
-GF;SA;South America;GUF;French Guiana;254
-PF;OC;Oceania;PYF;French Polynesia;258
-TF;AN;Antarctica;ATF;French Southern Territories;260
-DJ;AF;Africa;DJI;Djibouti, Republic of;262
-GA;AF;Africa;GAB;Gabon, Gabonese Republic;266
-GE;EU;Europe;GEO;Georgia;268
-GE;AS;Asia;GEO;Georgia;268
-GM;AF;Africa;GMB;Gambia, Republic of the;270
-PS;AS;Asia;PSE;Palestinian Territory, Occupied;275
-DE;EU;Europe;DEU;Germany, Federal Republic of;276
-GH;AF;Africa;GHA;Ghana, Republic of;288
-GI;EU;Europe;GIB;Gibraltar;292
-KI;OC;Oceania;KIR;Kiribati, Republic of;296
-GR;EU;Europe;GRC;Greece, Hellenic Republic;300
-GL;NA;North America;GRL;Greenland;304
-GD;NA;North America;GRD;Grenada;308
-GP;NA;North America;GLP;Guadeloupe;312
-GU;OC;Oceania;GUM;Guam;316
-GT;NA;North America;GTM;Guatemala, Republic of;320
-GN;AF;Africa;GIN;Guinea, Republic of;324
-GY;SA;South America;GUY;Guyana, Co-operative Republic of;328
-HT;NA;North America;HTI;Haiti, Republic of;332
-HM;AN;Antarctica;HMD;Heard Island and McDonald Islands;334
-VA;EU;Europe;VAT;Holy See (Vatican City State);336
-HN;NA;North America;HND;Honduras, Republic of;340
-HK;AS;Asia;HKG;Hong Kong, Special Administrative Region of China;344
-HU;EU;Europe;HUN;Hungary, Republic of;348
-IS;EU;Europe;ISL;Iceland, Republic of;352
-IN;AS;Asia;IND;India, Republic of;356
-ID;AS;Asia;IDN;Indonesia, Republic of;360
-IR;AS;Asia;IRN;Iran, Islamic Republic of;364
-IQ;AS;Asia;IRQ;Iraq, Republic of;368
-IE;EU;Europe;IRL;Ireland;372
-IL;AS;Asia;ISR;Israel, State of;376
-IT;EU;Europe;ITA;Italy, Italian Republic;380
-CI;AF;Africa;CIV;Cote d'Ivoire, Republic of;384
-JM;NA;North America;JAM;Jamaica;388
-JP;AS;Asia;JPN;Japan;392
-KZ;EU;Europe;KAZ;Kazakhstan, Republic of;398
-KZ;AS;Asia;KAZ;Kazakhstan, Republic of;398
-JO;AS;Asia;JOR;Jordan, Hashemite Kingdom of;400
-KE;AF;Africa;KEN;Kenya, Republic of;404
-KP;AS;Asia;PRK;Korea, Democratic People's Republic of;408
-KR;AS;Asia;KOR;Korea, Republic of;410
-KW;AS;Asia;KWT;Kuwait, State of;414
-KG;AS;Asia;KGZ;Kyrgyz Republic;417
-LA;AS;Asia;LAO;Lao People's Democratic Republic;418
-LB;AS;Asia;LBN;Lebanon, Lebanese Republic;422
-LS;AF;Africa;LSO;Lesotho, Kingdom of;426
-LV;EU;Europe;LVA;Latvia, Republic of;428
-LR;AF;Africa;LBR;Liberia, Republic of;430
-LY;AF;Africa;LBY;Libyan Arab Jamahiriya;434
-LI;EU;Europe;LIE;Liechtenstein, Principality of;438
-LT;EU;Europe;LTU;Lithuania, Republic of;440
-LU;EU;Europe;LUX;Luxembourg, Grand Duchy of;442
-MO;AS;Asia;MAC;Macao, Special Administrative Region of China;446
-MG;AF;Africa;MDG;Madagascar, Republic of;450
-MW;AF;Africa;MWI;Malawi, Republic of;454
-MY;AS;Asia;MYS;Malaysia;458
-MV;AS;Asia;MDV;Maldives, Republic of;462
-ML;AF;Africa;MLI;Mali, Republic of;466
-MT;EU;Europe;MLT;Malta, Republic of;470
-MQ;NA;North America;MTQ;Martinique;474
-MR;AF;Africa;MRT;Mauritania, Islamic Republic of;478
-MU;AF;Africa;MUS;Mauritius, Republic of;480
-MX;NA;North America;MEX;Mexico, United Mexican States;484
-MC;EU;Europe;MCO;Monaco, Principality of;492
-MN;AS;Asia;MNG;Mongolia;496
-MD;EU;Europe;MDA;Moldova, Republic of;498
-ME;EU;Europe;MNE;Montenegro, Republic of;499
-MS;NA;North America;MSR;Montserrat;500
-MA;AF;Africa;MAR;Morocco, Kingdom of;504
-MZ;AF;Africa;MOZ;Mozambique, Republic of;508
-OM;AS;Asia;OMN;Oman, Sultanate of;512
-NA;AF;Africa;NAM;Namibia, Republic of;516
-NR;OC;Oceania;NRU;Nauru, Republic of;520
-NP;AS;Asia;NPL;Nepal, State of;524
-NL;EU;Europe;NLD;Netherlands, Kingdom of the;528
-AN;NA;North America;ANT;Netherlands Antilles;530
-CW;NA;North America;CUW;Curaçao;531
-AW;NA;North America;ABW;Aruba;533
-SX;NA;North America;SXM;Sint Maarten (Netherlands);534
-BQ;NA;North America;BES;Bonaire, Sint Eustatius and Saba;535
-NC;OC;Oceania;NCL;New Caledonia;540
-VU;OC;Oceania;VUT;Vanuatu, Republic of;548
-NZ;OC;Oceania;NZL;New Zealand;554
-NI;NA;North America;NIC;Nicaragua, Republic of;558
-NE;AF;Africa;NER;Niger, Republic of;562
-NG;AF;Africa;NGA;Nigeria, Federal Republic of;566
-NU;OC;Oceania;NIU;Niue;570
-NF;OC;Oceania;NFK;Norfolk Island;574
-NO;EU;Europe;NOR;Norway, Kingdom of;578
-MP;OC;Oceania;MNP;Northern Mariana Islands, Commonwealth of the;580
-UM;OC;Oceania;UMI;United States Minor Outlying Islands;581
-UM;NA;North America;UMI;United States Minor Outlying Islands;581
-FM;OC;Oceania;FSM;Micronesia, Federated States of;583
-MH;OC;Oceania;MHL;Marshall Islands, Republic of the;584
-PW;OC;Oceania;PLW;Palau, Republic of;585
-PK;AS;Asia;PAK;Pakistan, Islamic Republic of;586
-PA;NA;North America;PAN;Panama, Republic of;591
-PG;OC;Oceania;PNG;Papua New Guinea, Independent State of;598
-PY;SA;South America;PRY;Paraguay, Republic of;600
-PE;SA;South America;PER;Peru, Republic of;604
-PH;AS;Asia;PHL;Philippines, Republic of the;608
-PN;OC;Oceania;PCN;Pitcairn Islands;612
-PL;EU;Europe;POL;Poland, Republic of;616
-PT;EU;Europe;PRT;Portugal, Portuguese Republic;620
-GW;AF;Africa;GNB;Guinea-Bissau, Republic of;624
-TL;AS;Asia;TLS;Timor-Leste, Democratic Republic of;626
-PR;NA;North America;PRI;Puerto Rico, Commonwealth of;630
-QA;AS;Asia;QAT;Qatar, State of;634
-RE;AF;Africa;REU;Reunion;638
-RO;EU;Europe;ROU;Romania;642
-RU;EU;Europe;RUS;Russian Federation;643
-RU;AS;Asia;RUS;Russian Federation;643
-RW;AF;Africa;RWA;Rwanda, Republic of;646
-BL;NA;North America;BLM;Saint Barthelemy;652
-SH;AF;Africa;SHN;Saint Helena;654
-KN;NA;North America;KNA;Saint Kitts and Nevis, Federation of;659
-AI;NA;North America;AIA;Anguilla;660
-LC;NA;North America;LCA;Saint Lucia;662
-MF;NA;North America;MAF;Saint Martin;663
-PM;NA;North America;SPM;Saint Pierre and Miquelon;666
-VC;NA;North America;VCT;Saint Vincent and the Grenadines;670
-SM;EU;Europe;SMR;San Marino, Republic of;674
-ST;AF;Africa;STP;Sao Tome and Principe, Democratic Republic of;678
-SA;AS;Asia;SAU;Saudi Arabia, Kingdom of;682
-SN;AF;Africa;SEN;Senegal, Republic of;686
-RS;EU;Europe;SRB;Serbia, Republic of;688
-SC;AF;Africa;SYC;Seychelles, Republic of;690
-SL;AF;Africa;SLE;Sierra Leone, Republic of;694
-SG;AS;Asia;SGP;Singapore, Republic of;702
-SK;EU;Europe;SVK;Slovakia (Slovak Republic);703
-VN;AS;Asia;VNM;Vietnam, Socialist Republic of;704
-SI;EU;Europe;SVN;Slovenia, Republic of;705
-SO;AF;Africa;SOM;Somalia, Somali Republic;706
-ZA;AF;Africa;ZAF;South Africa, Republic of;710
-ZW;AF;Africa;ZWE;Zimbabwe, Republic of;716
-ES;EU;Europe;ESP;Spain, Kingdom of;724
-SS;AF;Africa;SSD;South Sudan;728
-EH;AF;Africa;ESH;Western Sahara;732
-SD;AF;Africa;SDN;Sudan, Republic of;736
-SR;SA;South America;SUR;Suriname, Republic of;740
-SJ;EU;Europe;SJM;Svalbard & Jan Mayen Islands;744
-SZ;AF;Africa;SWZ;Swaziland, Kingdom of;748
-SE;EU;Europe;SWE;Sweden, Kingdom of;752
-CH;EU;Europe;CHE;Switzerland, Swiss Confederation;756
-SY;AS;Asia;SYR;Syrian Arab Republic;760
-TJ;AS;Asia;TJK;Tajikistan, Republic of;762
-TH;AS;Asia;THA;Thailand, Kingdom of;764
-TG;AF;Africa;TGO;Togo, Togolese Republic;768
-TK;OC;Oceania;TKL;Tokelau;772
-TO;OC;Oceania;TON;Tonga, Kingdom of;776
-TT;NA;North America;TTO;Trinidad and Tobago, Republic of;780
-AE;AS;Asia;ARE;United Arab Emirates;784
-TN;AF;Africa;TUN;Tunisia, Tunisian Republic;788
-TR;EU;Europe;TUR;Turkey, Republic of;792
-TR;AS;Asia;TUR;Turkey, Republic of;792
-TM;AS;Asia;TKM;Turkmenistan;795
-TC;NA;North America;TCA;Turks and Caicos Islands;796
-TV;OC;Oceania;TUV;Tuvalu;798
-UG;AF;Africa;UGA;Uganda, Republic of;800
-UA;EU;Europe;UKR;Ukraine;804
-MK;EU;Europe;MKD;Macedonia, The Former Yugoslav Republic of;807
-EG;AF;Africa;EGY;Egypt, Arab Republic of;818
-GB;EU;Europe;GBR;United Kingdom of Great Britain & Northern Ireland;826
-GG;EU;Europe;GGY;Guernsey, Bailiwick of;831
-JE;EU;Europe;JEY;Jersey, Bailiwick of;832
-IM;EU;Europe;IMN;Isle of Man;833
-TZ;AF;Africa;TZA;Tanzania, United Republic of;834
-US;NA;North America;USA;United States of America;840
-VI;NA;North America;VIR;United States Virgin Islands;850
-BF;AF;Africa;BFA;Burkina Faso;854
-UY;SA;South America;URY;Uruguay, Eastern Republic of;858
-UZ;AS;Asia;UZB;Uzbekistan, Republic of;860
-VE;SA;South America;VEN;Venezuela, Bolivarian Republic of;862
-WF;OC;Oceania;WLF;Wallis and Futuna;876
-WS;OC;Oceania;WSM;Samoa, Independent State of;882
-YE;AS;Asia;YEM;Yemen;887
-ZM;AF;Africa;ZMB;Zambia, Republic of;894
-XX;OC;Oceania;;Disputed Territory;
-XE;AS;Asia;;Iraq-Saudi Arabia Neutral Zone;
-XD;AS;Asia;;United Nations Neutral Zone;
-XS;AS;Asia;;Spratly Islands;
+﻿Three_Letter_Country_Code;Two_Letter_Country_Code;Continent_Code;Continent_Name;Country_Name;Country_Number
+AFG;AF;AS;Asia;Afghanistan, Islamic Republic of;4
+ALB;AL;EU;Europe;Albania, Republic of;8
+ATA;AQ;AN;Antarctica;Antarctica (the territory South of 60 deg S);10
+DZA;DZ;AF;Africa;Algeria, People's Democratic Republic of;12
+ASM;AS;OC;Oceania;American Samoa;16
+AND;AD;EU;Europe;Andorra, Principality of;20
+AGO;AO;AF;Africa;Angola, Republic of;24
+ATG;AG;NA;North America;Antigua and Barbuda;28
+AZE;AZ;EU;Europe;Azerbaijan, Republic of;31
+AZE;AZ;AS;Asia;Azerbaijan, Republic of;31
+ARG;AR;SA;South America;Argentina, Argentine Republic;32
+AUS;AU;OC;Oceania;Australia, Commonwealth of;36
+AUT;AT;EU;Europe;Austria, Republic of;40
+BHS;BS;NA;North America;Bahamas, Commonwealth of the;44
+BHR;BH;AS;Asia;Bahrain, Kingdom of;48
+BGD;BD;AS;Asia;Bangladesh, People's Republic of;50
+ARM;AM;EU;Europe;Armenia, Republic of;51
+ARM;AM;AS;Asia;Armenia, Republic of;51
+BRB;BB;NA;North America;Barbados;52
+BEL;BE;EU;Europe;Belgium, Kingdom of;56
+BMU;BM;NA;North America;Bermuda;60
+BTN;BT;AS;Asia;Bhutan, Kingdom of;64
+BOL;BO;SA;South America;Bolivia, Republic of;68
+BIH;BA;EU;Europe;Bosnia and Herzegovina;70
+BWA;BW;AF;Africa;Botswana, Republic of;72
+BVT;BV;AN;Antarctica;Bouvet Island (Bouvetoya);74
+BRA;BR;SA;South America;Brazil, Federative Republic of;76
+BLZ;BZ;NA;North America;Belize;84
+IOT;IO;AS;Asia;British Indian Ocean Territory (Chagos Archipelago);86
+SLB;SB;OC;Oceania;Solomon Islands;90
+VGB;VG;NA;North America;British Virgin Islands;92
+BRN;BN;AS;Asia;Brunei Darussalam;96
+BGR;BG;EU;Europe;Bulgaria, Republic of;100
+MMR;MM;AS;Asia;Myanmar, Union of;104
+BDI;BI;AF;Africa;Burundi, Republic of;108
+BLR;BY;EU;Europe;Belarus, Republic of;112
+KHM;KH;AS;Asia;Cambodia, Kingdom of;116
+CMR;CM;AF;Africa;Cameroon, Republic of;120
+CAN;CA;NA;North America;Canada;124
+CPV;CV;AF;Africa;Cape Verde, Republic of;132
+CYM;KY;NA;North America;Cayman Islands;136
+CAF;CF;AF;Africa;Central African Republic;140
+LKA;LK;AS;Asia;Sri Lanka, Democratic Socialist Republic of;144
+TCD;TD;AF;Africa;Chad, Republic of;148
+CHL;CL;SA;South America;Chile, Republic of;152
+CHN;CN;AS;Asia;China, People's Republic of;156
+TWN;TW;AS;Asia;Taiwan;158
+CXR;CX;AS;Asia;Christmas Island;162
+CCK;CC;AS;Asia;Cocos (Keeling) Islands;166
+COL;CO;SA;South America;Colombia, Republic of;170
+COM;KM;AF;Africa;Comoros, Union of the;174
+MYT;YT;AF;Africa;Mayotte;175
+COG;CG;AF;Africa;Congo, Republic of the;178
+COD;CD;AF;Africa;Congo, Democratic Republic of the;180
+COK;CK;OC;Oceania;Cook Islands;184
+CRI;CR;NA;North America;Costa Rica, Republic of;188
+HRV;HR;EU;Europe;Croatia, Republic of;191
+CUB;CU;NA;North America;Cuba, Republic of;192
+CYP;CY;EU;Europe;Cyprus, Republic of;196
+CYP;CY;AS;Asia;Cyprus, Republic of;196
+CZE;CZ;EU;Europe;Czech Republic;203
+BEN;BJ;AF;Africa;Benin, Republic of;204
+DNK;DK;EU;Europe;Denmark, Kingdom of;208
+DMA;DM;NA;North America;Dominica, Commonwealth of;212
+DOM;DO;NA;North America;Dominican Republic;214
+ECU;EC;SA;South America;Ecuador, Republic of;218
+SLV;SV;NA;North America;El Salvador, Republic of;222
+GNQ;GQ;AF;Africa;Equatorial Guinea, Republic of;226
+ETH;ET;AF;Africa;Ethiopia, Federal Democratic Republic of;231
+ERI;ER;AF;Africa;Eritrea, State of;232
+EST;EE;EU;Europe;Estonia, Republic of;233
+FRO;FO;EU;Europe;Faroe Islands;234
+FLK;FK;SA;South America;Falkland Islands (Malvinas);238
+SGS;GS;AN;Antarctica;South Georgia and the South Sandwich Islands;239
+FJI;FJ;OC;Oceania;Fiji, Republic of the Fiji Islands;242
+FIN;FI;EU;Europe;Finland, Republic of;246
+ALA;AX;EU;Europe;Åland Islands;248
+FRA;FR;EU;Europe;France, French Republic;250
+GUF;GF;SA;South America;French Guiana;254
+PYF;PF;OC;Oceania;French Polynesia;258
+ATF;TF;AN;Antarctica;French Southern Territories;260
+DJI;DJ;AF;Africa;Djibouti, Republic of;262
+GAB;GA;AF;Africa;Gabon, Gabonese Republic;266
+GEO;GE;EU;Europe;Georgia;268
+GEO;GE;AS;Asia;Georgia;268
+GMB;GM;AF;Africa;Gambia, Republic of the;270
+PSE;PS;AS;Asia;Palestinian Territory, Occupied;275
+DEU;DE;EU;Europe;Germany, Federal Republic of;276
+GHA;GH;AF;Africa;Ghana, Republic of;288
+GIB;GI;EU;Europe;Gibraltar;292
+KIR;KI;OC;Oceania;Kiribati, Republic of;296
+GRC;GR;EU;Europe;Greece, Hellenic Republic;300
+GRL;GL;NA;North America;Greenland;304
+GRD;GD;NA;North America;Grenada;308
+GLP;GP;NA;North America;Guadeloupe;312
+GUM;GU;OC;Oceania;Guam;316
+GTM;GT;NA;North America;Guatemala, Republic of;320
+GIN;GN;AF;Africa;Guinea, Republic of;324
+GUY;GY;SA;South America;Guyana, Co-operative Republic of;328
+HTI;HT;NA;North America;Haiti, Republic of;332
+HMD;HM;AN;Antarctica;Heard Island and McDonald Islands;334
+VAT;VA;EU;Europe;Holy See (Vatican City State);336
+HND;HN;NA;North America;Honduras, Republic of;340
+HKG;HK;AS;Asia;Hong Kong, Special Administrative Region of China;344
+HUN;HU;EU;Europe;Hungary, Republic of;348
+ISL;IS;EU;Europe;Iceland, Republic of;352
+IND;IN;AS;Asia;India, Republic of;356
+IDN;ID;AS;Asia;Indonesia, Republic of;360
+IRN;IR;AS;Asia;Iran, Islamic Republic of;364
+IRQ;IQ;AS;Asia;Iraq, Republic of;368
+IRL;IE;EU;Europe;Ireland;372
+ISR;IL;AS;Asia;Israel, State of;376
+ITA;IT;EU;Europe;Italy, Italian Republic;380
+CIV;CI;AF;Africa;Cote d'Ivoire, Republic of;384
+JAM;JM;NA;North America;Jamaica;388
+JPN;JP;AS;Asia;Japan;392
+KAZ;KZ;EU;Europe;Kazakhstan, Republic of;398
+KAZ;KZ;AS;Asia;Kazakhstan, Republic of;398
+JOR;JO;AS;Asia;Jordan, Hashemite Kingdom of;400
+KEN;KE;AF;Africa;Kenya, Republic of;404
+PRK;KP;AS;Asia;Korea, Democratic People's Republic of;408
+KOR;KR;AS;Asia;Korea, Republic of;410
+KWT;KW;AS;Asia;Kuwait, State of;414
+KGZ;KG;AS;Asia;Kyrgyz Republic;417
+LAO;LA;AS;Asia;Lao People's Democratic Republic;418
+LBN;LB;AS;Asia;Lebanon, Lebanese Republic;422
+LSO;LS;AF;Africa;Lesotho, Kingdom of;426
+LVA;LV;EU;Europe;Latvia, Republic of;428
+LBR;LR;AF;Africa;Liberia, Republic of;430
+LBY;LY;AF;Africa;Libyan Arab Jamahiriya;434
+LIE;LI;EU;Europe;Liechtenstein, Principality of;438
+LTU;LT;EU;Europe;Lithuania, Republic of;440
+LUX;LU;EU;Europe;Luxembourg, Grand Duchy of;442
+MAC;MO;AS;Asia;Macao, Special Administrative Region of China;446
+MDG;MG;AF;Africa;Madagascar, Republic of;450
+MWI;MW;AF;Africa;Malawi, Republic of;454
+MYS;MY;AS;Asia;Malaysia;458
+MDV;MV;AS;Asia;Maldives, Republic of;462
+MLI;ML;AF;Africa;Mali, Republic of;466
+MLT;MT;EU;Europe;Malta, Republic of;470
+MTQ;MQ;NA;North America;Martinique;474
+MRT;MR;AF;Africa;Mauritania, Islamic Republic of;478
+MUS;MU;AF;Africa;Mauritius, Republic of;480
+MEX;MX;NA;North America;Mexico, United Mexican States;484
+MCO;MC;EU;Europe;Monaco, Principality of;492
+MNG;MN;AS;Asia;Mongolia;496
+MDA;MD;EU;Europe;Moldova, Republic of;498
+MNE;ME;EU;Europe;Montenegro, Republic of;499
+MSR;MS;NA;North America;Montserrat;500
+MAR;MA;AF;Africa;Morocco, Kingdom of;504
+MOZ;MZ;AF;Africa;Mozambique, Republic of;508
+OMN;OM;AS;Asia;Oman, Sultanate of;512
+NAM;NA;AF;Africa;Namibia, Republic of;516
+NRU;NR;OC;Oceania;Nauru, Republic of;520
+NPL;NP;AS;Asia;Nepal, State of;524
+NLD;NL;EU;Europe;Netherlands, Kingdom of the;528
+ANT;AN;NA;North America;Netherlands Antilles;530
+CUW;CW;NA;North America;Curaçao;531
+ABW;AW;NA;North America;Aruba;533
+SXM;SX;NA;North America;Sint Maarten (Netherlands);534
+BES;BQ;NA;North America;Bonaire, Sint Eustatius and Saba;535
+NCL;NC;OC;Oceania;New Caledonia;540
+VUT;VU;OC;Oceania;Vanuatu, Republic of;548
+NZL;NZ;OC;Oceania;New Zealand;554
+NIC;NI;NA;North America;Nicaragua, Republic of;558
+NER;NE;AF;Africa;Niger, Republic of;562
+NGA;NG;AF;Africa;Nigeria, Federal Republic of;566
+NIU;NU;OC;Oceania;Niue;570
+NFK;NF;OC;Oceania;Norfolk Island;574
+NOR;NO;EU;Europe;Norway, Kingdom of;578
+MNP;MP;OC;Oceania;Northern Mariana Islands, Commonwealth of the;580
+UMI;UM;OC;Oceania;United States Minor Outlying Islands;581
+UMI;UM;NA;North America;United States Minor Outlying Islands;581
+FSM;FM;OC;Oceania;Micronesia, Federated States of;583
+MHL;MH;OC;Oceania;Marshall Islands, Republic of the;584
+PLW;PW;OC;Oceania;Palau, Republic of;585
+PAK;PK;AS;Asia;Pakistan, Islamic Republic of;586
+PAN;PA;NA;North America;Panama, Republic of;591
+PNG;PG;OC;Oceania;Papua New Guinea, Independent State of;598
+PRY;PY;SA;South America;Paraguay, Republic of;600
+PER;PE;SA;South America;Peru, Republic of;604
+PHL;PH;AS;Asia;Philippines, Republic of the;608
+PCN;PN;OC;Oceania;Pitcairn Islands;612
+POL;PL;EU;Europe;Poland, Republic of;616
+PRT;PT;EU;Europe;Portugal, Portuguese Republic;620
+GNB;GW;AF;Africa;Guinea-Bissau, Republic of;624
+TLS;TL;AS;Asia;Timor-Leste, Democratic Republic of;626
+PRI;PR;NA;North America;Puerto Rico, Commonwealth of;630
+QAT;QA;AS;Asia;Qatar, State of;634
+REU;RE;AF;Africa;Reunion;638
+ROU;RO;EU;Europe;Romania;642
+RUS;RU;EU;Europe;Russian Federation;643
+RUS;RU;AS;Asia;Russian Federation;643
+RWA;RW;AF;Africa;Rwanda, Republic of;646
+BLM;BL;NA;North America;Saint Barthelemy;652
+SHN;SH;AF;Africa;Saint Helena;654
+KNA;KN;NA;North America;Saint Kitts and Nevis, Federation of;659
+AIA;AI;NA;North America;Anguilla;660
+LCA;LC;NA;North America;Saint Lucia;662
+MAF;MF;NA;North America;Saint Martin;663
+SPM;PM;NA;North America;Saint Pierre and Miquelon;666
+VCT;VC;NA;North America;Saint Vincent and the Grenadines;670
+SMR;SM;EU;Europe;San Marino, Republic of;674
+STP;ST;AF;Africa;Sao Tome and Principe, Democratic Republic of;678
+SAU;SA;AS;Asia;Saudi Arabia, Kingdom of;682
+SEN;SN;AF;Africa;Senegal, Republic of;686
+SRB;RS;EU;Europe;Serbia, Republic of;688
+SYC;SC;AF;Africa;Seychelles, Republic of;690
+SLE;SL;AF;Africa;Sierra Leone, Republic of;694
+SGP;SG;AS;Asia;Singapore, Republic of;702
+SVK;SK;EU;Europe;Slovakia (Slovak Republic);703
+VNM;VN;AS;Asia;Vietnam, Socialist Republic of;704
+SVN;SI;EU;Europe;Slovenia, Republic of;705
+SOM;SO;AF;Africa;Somalia, Somali Republic;706
+ZAF;ZA;AF;Africa;South Africa, Republic of;710
+ZWE;ZW;AF;Africa;Zimbabwe, Republic of;716
+ESP;ES;EU;Europe;Spain, Kingdom of;724
+SSD;SS;AF;Africa;South Sudan;728
+ESH;EH;AF;Africa;Western Sahara;732
+SDN;SD;AF;Africa;Sudan, Republic of;736
+SUR;SR;SA;South America;Suriname, Republic of;740
+SJM;SJ;EU;Europe;Svalbard & Jan Mayen Islands;744
+SWZ;SZ;AF;Africa;Swaziland, Kingdom of;748
+SWE;SE;EU;Europe;Sweden, Kingdom of;752
+CHE;CH;EU;Europe;Switzerland, Swiss Confederation;756
+SYR;SY;AS;Asia;Syrian Arab Republic;760
+TJK;TJ;AS;Asia;Tajikistan, Republic of;762
+THA;TH;AS;Asia;Thailand, Kingdom of;764
+TGO;TG;AF;Africa;Togo, Togolese Republic;768
+TKL;TK;OC;Oceania;Tokelau;772
+TON;TO;OC;Oceania;Tonga, Kingdom of;776
+TTO;TT;NA;North America;Trinidad and Tobago, Republic of;780
+ARE;AE;AS;Asia;United Arab Emirates;784
+TUN;TN;AF;Africa;Tunisia, Tunisian Republic;788
+TUR;TR;EU;Europe;Turkey, Republic of;792
+TUR;TR;AS;Asia;Turkey, Republic of;792
+TKM;TM;AS;Asia;Turkmenistan;795
+TCA;TC;NA;North America;Turks and Caicos Islands;796
+TUV;TV;OC;Oceania;Tuvalu;798
+UGA;UG;AF;Africa;Uganda, Republic of;800
+UKR;UA;EU;Europe;Ukraine;804
+MKD;MK;EU;Europe;Macedonia, The Former Yugoslav Republic of;807
+EGY;EG;AF;Africa;Egypt, Arab Republic of;818
+GBR;GB;EU;Europe;United Kingdom of Great Britain & Northern Ireland;826
+GGY;GG;EU;Europe;Guernsey, Bailiwick of;831
+JEY;JE;EU;Europe;Jersey, Bailiwick of;832
+IMN;IM;EU;Europe;Isle of Man;833
+TZA;TZ;AF;Africa;Tanzania, United Republic of;834
+USA;US;NA;North America;United States of America;840
+VIR;VI;NA;North America;United States Virgin Islands;850
+BFA;BF;AF;Africa;Burkina Faso;854
+URY;UY;SA;South America;Uruguay, Eastern Republic of;858
+UZB;UZ;AS;Asia;Uzbekistan, Republic of;860
+VEN;VE;SA;South America;Venezuela, Bolivarian Republic of;862
+WLF;WF;OC;Oceania;Wallis and Futuna;876
+WSM;WS;OC;Oceania;Samoa, Independent State of;882
+YEM;YE;AS;Asia;Yemen;887
+ZMB;ZM;AF;Africa;Zambia, Republic of;894
+;XX;OC;Oceania;Disputed Territory;
+;XE;AS;Asia;Iraq-Saudi Arabia Neutral Zone;
+;XD;AS;Asia;United Nations Neutral Zone;
+;XS;AS;Asia;Spratly Islands;
