@@ -11,6 +11,9 @@
 // To get user input
 import java.util.Scanner;
 
+// To hold array list of Locations
+import java.util.ArrayList;
+
 public class MusicDemo
 {
    /**
@@ -38,11 +41,12 @@ public class MusicDemo
       input = scanner.nextLine();
       
       // Check for places starting with this name and store them
-      Location[] citySuggestions = LocationHelp.autocomplete(input);
+      ArrayList<Location> citySuggestions = LocationHelp.autocomplete(input);
+      //Location[] citySuggestions = LocationHelp.autocomplete(input);
       
       // Show location matches
-      for(int i = 0; i < 5; i++)
-         System.out.print("\n[" + (i+1) + "] " + citySuggestions[i].toString());
+      for(int i = 0; i < citySuggestions.size(); i++)
+         System.out.print("\n[" + (i+1) + "] " + citySuggestions.get(i).toString());
       
       // Ask user to pick from matched locations
       System.out.print("\n\nChoose one from the above locations [1-5]: ");
@@ -51,7 +55,7 @@ public class MusicDemo
       input = scanner.nextLine();
       
       // Location object chosen by user is now referenced by a new field
-      Location chosenLocation = citySuggestions[Integer.parseInt(input)-1];
+      Location chosenLocation = citySuggestions.get(Integer.parseInt(input)-1);
       
       // Create a Weather object using constructor that passes city name into it
       weather = new Weather(chosenLocation.getWeatherQueryLocation());

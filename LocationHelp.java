@@ -24,6 +24,9 @@ import org.json.simple.JSONArray;
 import org.json.simple.parser.ParseException;
 import org.json.simple.parser.JSONParser;
 
+// To hold array list of Locations
+import java.util.ArrayList;
+
 public final class LocationHelp
 {
    /*
@@ -173,7 +176,7 @@ public final class LocationHelp
       @return Array of 5 top matches of cities
    */
    
-   public static Location[] autocomplete(String input)
+   public static ArrayList<Location> autocomplete(String input)
    {
       // Create new URL string to query matched locations with user input
       String locationUrlString = "https://autocomplete.search.hereapi.com/v1/autocomplete?types=city&limit=5&apiKey="
@@ -202,7 +205,8 @@ public final class LocationHelp
       }
       
       // Declare array to store 5 locations in Location objects array
-      Location locationSuggestions[] = new Location[5]; 
+      ArrayList<Location> locationSuggestions = new ArrayList<Location>();
+      //Location locationSuggestions[] = new Location[6]; 
       
       try
       {
@@ -216,7 +220,10 @@ public final class LocationHelp
          // This is because weather section contains an array with 1 element
          JSONArray locationObjArray = (JSONArray)locationObj.get("items");
          
-         for(int i = 0; i < 5; i++)
+         // Determine size of the JsonArray
+         int numOfSuggestions = locationObjArray.size();
+         
+         for(int i = 0; i < numOfSuggestions; i++)
          {
             // Store the first element of locationObjArray as Json object
             locationObj = (JSONObject)locationObjArray.get(i);
@@ -242,15 +249,16 @@ public final class LocationHelp
                
                // Call the constructor specific to USA location
                // Constructor overloading
-               locationSuggestions[i] = new Location(label, city, usaStateCode, countryCode);
+               locationSuggestions.add(new Location(label, city, usaStateCode, countryCode));
             }
             
             // Call constructor for countries outside USA
             // Constructor overloading
             else
             {
-               locationSuggestions[i] = new Location(label, city, countryCode);
+               locationSuggestions.add(new Location(label, city, countryCode));
             }
+            
          }         
       } catch(ParseException pe)
       {
