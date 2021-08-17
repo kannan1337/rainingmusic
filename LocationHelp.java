@@ -247,15 +247,14 @@ public final class LocationHelp
             if(countryCode.equals("USA"))
             {
                // Store state code field from the location retrieved
-               String usaStateCode = locationObj.get("stateCode").toString();
+               String stateCode = locationObj.get("stateCode").toString();
                
                // Call the constructor specific to USA location
-               // Constructor overloading
-               locationSuggestions.add(new Location(label, city, usaStateCode, countryCode));
+               // POLYMORPHISM: LocationWithStateCode subclass object initialized for a Location object
+               locationSuggestions.add(new LocationWithState(label, city, stateCode, countryCode));
             }
             
             // Call constructor for countries outside USA
-            // Constructor overloading
             else
             {
                locationSuggestions.add(new Location(label, city, countryCode));

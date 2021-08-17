@@ -41,6 +41,7 @@ public class MusicDemo
       input = scanner.nextLine();
       
       // Check for places starting with this name and store them
+      // POLYMORPHISM #1: The returned object could be Location or LocationWithStateCode subclass
       ArrayList<Location> citySuggestions = LocationHelp.autocomplete(input);
       
       // Show location matches
@@ -69,7 +70,7 @@ public class MusicDemo
          + "\nTemperature: " + weather.getTemp() + " deg F");
       
       // Initialize music object based on weather type
-      // POLYMORPHISM
+      // POLYMORPHISM #2: Music class initialized with any of its 3 subclasses
       switch (weather.getWeatherType())
       {
          // Rain Music
