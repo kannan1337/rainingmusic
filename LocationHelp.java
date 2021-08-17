@@ -181,6 +181,9 @@ public final class LocationHelp
    
    public static ArrayList<Location> autocomplete(String input)
    {
+      // Replace spaces with %20 for urls
+      input = input.replaceAll(" ", "%20");
+      
       // Create new URL string to query matched locations with user input
       String locationUrlString = "https://autocomplete.search.hereapi.com/v1/autocomplete?types=city&limit=10&apiKey="
          + LOCATION_API_KEY + "&q=" + input;
