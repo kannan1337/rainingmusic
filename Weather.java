@@ -240,4 +240,17 @@ public class Weather
    {
       return weatherType;
    }
+   
+   /**
+      Returns relevant fields in the object.
+      @return String with relevant fields and their values
+   */
+   public String toString()
+   {
+      return "City: " + city
+         + "\nCountry Code: " + countryCode
+         + "\nWeather type: " + weatherType
+         + "\nTemperature: " + temperature
+         + "\nTime zone: " + timeZone;
+   }
 }

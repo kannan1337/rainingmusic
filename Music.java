@@ -204,4 +204,16 @@ public class Music
       // Set the pattern to the tune passed in
       pPattern.add(pTune);
    }
+   
+   /**
+      Returns relevant fields in the object.
+      @return String with relevant fields and their values
+   */
+   public String toString()
+   {
+      return "Intro Tune: " + introTune
+         + "\nIntro Instrument: " + introInstrument
+         + "\nTempo: " + tempo;
+   }
+
 }

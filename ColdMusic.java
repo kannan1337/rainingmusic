@@ -95,4 +95,15 @@ public class ColdMusic extends Music
       // Play the pattern with current settings.
       player.play(pattern);      
    }
+   
+   /**
+      Returns relevant fields in the object.
+      @return String with relevant fields and their values
+   */
+   @Override
+   public String toString()
+   {
+      return super.toString() + "\nTune: " + tune
+         + "\nInstrument: " + instrument;
+   }
 }

@@ -271,4 +271,17 @@ public final class LocationHelp
       // Return the location suggestions String array
       return locationSuggestions;
    }
+   
+   /**
+      toString method returns description of class since this class
+      cannot be instantiated.
+      @return Description of class
+   */
+   
+   public String toString()
+   {
+      return "LocationHelp only contains static fields and methods "
+         + "to assist location functions.";
+   }
+   
 }
