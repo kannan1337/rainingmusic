@@ -107,10 +107,14 @@ public class Weather
       } catch (IOException exception)
       {
          System.out.println(exception.getMessage());
+         System.out.println("\nCity not found. Exiting program.");
+         
+         // Exit program
+         System.exit(1);
       }
       
       // Print out the report for testing
-      // System.out.println("Weather report is:\n" + report + "\n");
+      //System.out.println("Weather report is:\n" + report + "\n");
       
       // Convert report string to a Map using google's gson code
       Map<String, Object> reportMap = jsonToMap(report.toString());
