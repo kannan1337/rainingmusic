@@ -1,5 +1,13 @@
 # rainingmusic
 
+Java program using JFugue to play music notes with varying tempo depending on Location and Weather.
+Interfaced with HERE Maps API for places autofill and lookup, and OpenWeatherMap API to pull current weather.
+
+Start with MusicDemo.java
+
+Libraries
+===================
+
 Place the following files inside /lib/
 
 1. Google gson jar file: https://maven-badges.herokuapp.com/maven-central/com.google.code.gson/gson
