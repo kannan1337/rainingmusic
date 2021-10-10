@@ -8,7 +8,6 @@ Place the following files inside /lib/
 
 The in your IDE, edit CLASSPATH, add these three jar files there. In Eclipse IDE if it still says a class file is unrecognized, follow the following alternate method only for that missing package.
 
-===================
 Alternative method:
 ===================
 
@@ -33,7 +32,6 @@ adnd paster in the same folder as your code.
 Also download jfuge and copy "org" folder into the same folder as the code.
 Also download CSV file and place in same folder as the code.
 
-===================
 API References:
 ===================
 
